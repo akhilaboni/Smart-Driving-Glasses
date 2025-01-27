@@ -1,0 +1,15 @@
+Setup Instructions for Smart Driving Glasses Project
+
+1. Clone the repository:
+   git clone https://github.com/your-username/Smart-Driving-Glasses.git
+
+2. Install OpenCV for C++:
+   - You can follow the OpenCV installation guide for your platform: https://opencv.org/releases/
+
+3. Compile the C++ code:
+   g++ -o smart_glasses main.cpp `pkg-config --cflags --libs opencv4`
+
+4. Run the program:
+   ./smart_glasses
+
+5. Ensure your camera is connected and functional.
